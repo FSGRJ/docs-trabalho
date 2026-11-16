@@ -1,0 +1,22 @@
+Descrição resumida
+[GCM] - SIMTX - Gerenciamento de Configuração e Mudança
+
+Descrição
+Validação da História e Criação de Release de Mudança para evoluir módulos para o ambiente de PRD.
+
+Atenção (Para o campo [Estado]  é alterado da seguinte forma)
+	1. Se a [História] estiver com o [Estado] = [Rascunho] mantenha a [Tarefas de Scrum] também com o [Estado] = [Rascunho]
+	2. Se a [História] estiver com o [Estado] = [Preparado] mantenha a [Tarefas de Scrum] também com o [Estado] = [Preparado]
+	3. Se a [História] estiver com o [Estado] = [Trabalho em andamento] mantenha a [Tarefas de Scrum], também com o [Estado] = [Trabalho em andamento]. 
+	4. A partir daí só será modificado o [Estado] da [Tarefas de Scrum] quando o [Estado] da [História] = [Pronto].
+	5. Quem colocar a [História] = [Pronto], o [GCM] em que momento isso ocorre, após a validação de todas as [Tarefas de Scrum] que estejam relacionadas a [História]. 
+	6. Validações e atividades realizadas:
+	1 - Ficha Técnica adicionada na história. 
+	2 - Verificação se todas as tarefas das equipes (REQ, DEV, QA), foram concluídas.   
+	3 - Troca do status de (Testando) para (Pronto).
+	7. Após essas validações informar em [Anotações de trabalho] essas mesmas informações:
+	Validações e atividades realizadas:
+		1 - Ficha Técnica adicionada na história. 
+		2 - Verificação se todas as tarefas das equipes (REQ, DEV, QA), foram concluídas.   
+		3 - Troca do status de (Testando) para (Pronto).
+	8. Colocar o [Estado] = [Concluído], e clicar em [Salvar] com isso [Tarefas de Scrum] e [História]finalizadas. 
